@@ -1,0 +1,8 @@
+;Recipe
+; for aa
+;
+ITEM TYPE;ITEM CODE;ITEM NAME;ITEM PRICE;QUANTITY;
+SMALL_ITEM;#11;czosnek;2;10;
+SMALL_ITEM;ae;asdf;22;1;
+
+;;; Final price :;42

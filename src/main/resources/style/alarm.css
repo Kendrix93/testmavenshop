@@ -1,0 +1,15 @@
+.dialog-pane {
+    -fx-background-color: #33FFFF;
+    -fx-text-alignment: center;
+}
+
+.tab-pane{
+    -fx-border-radius: 18 18 18 18;
+}
+
+.header-panel{
+    -fx-background-color: #33FFFF;
+    -fx-text-alignment: right;
+    -fx-font-size: 15;
+}
+

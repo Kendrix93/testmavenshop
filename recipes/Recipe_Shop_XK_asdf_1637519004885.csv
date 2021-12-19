@@ -1,0 +1,8 @@
+;Recipe
+; for asdf
+;
+ITEM TYPE;ITEM CODE;ITEM NAME;ITEM PRICE;QUANTITY;
+SMALL_ITEM;#11;czosnek;2;10;
+MEDIUM_ITEM;#22;cola;5;20;
+
+;;; Final price :;120

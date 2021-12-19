@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.controller.LoadingController">
+   <children>
+      <Circle fx:id="circleBig" fill="#8921ff00" layoutX="229.0" layoutY="202.0" radius="100.0" stroke="#9a2f93" strokeDashOffset="9.0" strokeLineJoin="BEVEL" strokeWidth="10.0" style="-fx-stroke-dash-array: 40;" />
+      <Circle fx:id="circleMiddle" fill="#1f93ff00" layoutX="229.0" layoutY="202.0" radius="81.0" stroke="#1500fc" strokeType="INSIDE" strokeWidth="5.0" style="-fx-stroke-dash-array: 35;" />
+      <Circle fx:id="circleSmall" fill="#e5ff1f00" layoutX="229.0" layoutY="202.0" radius="58.0" stroke="#a5b518" strokeType="INSIDE" strokeWidth="5.0" style="-fx-stroke-dash-array: 25;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="178.0" layoutY="189.0" prefHeight="27.0" prefWidth="102.0" text="LOADING">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+</AnchorPane>

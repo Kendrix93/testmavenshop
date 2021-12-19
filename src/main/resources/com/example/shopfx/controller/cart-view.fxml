@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.controller.CartController">
+   <children>
+      <Button fx:id="goToShopButton" layoutX="640.0" layoutY="621.0" mnemonicParsing="false" text="Go to SHOP" />
+      <Button fx:id="deleteButton" layoutX="627.0" layoutY="278.0" mnemonicParsing="false" text="Delete Item" />
+      <TableView fx:id="itemTable" layoutX="70.0" layoutY="181.0" prefHeight="465.0" prefWidth="523.0">
+        <columns>
+          <TableColumn fx:id="itemName" prefWidth="165.0" text="Name" />
+          <TableColumn fx:id="itemCode" prefWidth="66.0" text="Code" />
+            <TableColumn fx:id="itemPrice" prefWidth="79.0" text="Price" />
+            <TableColumn fx:id="itemType" prefWidth="137.0" text="Type" />
+            <TableColumn fx:id="itemQuantity" prefWidth="75.0" text="Quantity" />
+        </columns>
+      </TableView>
+      <Label layoutX="86.0" layoutY="70.0" text="CART">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Label fx:id="errorLabel" contentDisplay="CENTER" layoutX="590.0" layoutY="145.0" prefHeight="36.0" prefWidth="307.0" textFill="RED">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Pane fx:id="topPane" layoutX="852.0" layoutY="8.0" prefHeight="36.0" prefWidth="41.0" />
+      <Button fx:id="buyButton" layoutX="631.0" layoutY="343.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="145.0" text="BUY">
+         <font>
+            <Font name="Ebrima" size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusButton" layoutX="627.0" layoutY="212.0" mnemonicParsing="false" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+         <padding>
+            <Insets bottom="5.0" left="11.0" right="11.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button fx:id="plusButton" layoutX="678.0" layoutY="212.0" mnemonicParsing="false" text="+">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+      </Button>
+      <Text layoutX="629.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Final price: ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Label fx:id="priceLabel" layoutX="626.0" layoutY="513.0" prefHeight="45.0" prefWidth="207.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="784.0" layoutY="621.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

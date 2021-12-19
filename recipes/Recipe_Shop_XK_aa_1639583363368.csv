@@ -1,0 +1,8 @@
+;Recipe
+; for aa
+;
+ITEM TYPE;ITEM CODE;ITEM NAME;ITEM PRICE;QUANTITY;
+SMALL_ITEM;pp;asdf;22;12;
+SMALL_ITEM;qweqwe;ewewew;123;100;
+
+;;; Final price :;12564

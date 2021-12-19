@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shopfx.controller.AlarmController">
+   <children>
+      <Text layoutX="163.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Uwaga!">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Text>
+      <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="96.0" prefHeight="62.0" prefWidth="421.0" />
+      <Button fx:id="okButton" layoutX="181.0" layoutY="179.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="OK" />
+   </children>
+</AnchorPane>

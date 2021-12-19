@@ -1,0 +1,28 @@
+#closeButton{
+    -fx-background-color:transparent;
+}
+
+#anchorPane {
+    -fx-background-color: WHITE;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+}
+
+#menuPane {
+    -fx-background-color: #009999;
+    -fx-background-radius: 0 18 18 0;
+    -fx-border-radius: 0 18 18 0;
+}
+
+.button{
+    -fx-background-color: #009999;
+    -fx-text-fill: WHITE;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 16;
+}
+
+.button:hover{
+    -fx-font-size: 18;
+}
+
+
